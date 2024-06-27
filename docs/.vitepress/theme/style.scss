@@ -1,0 +1,47 @@
+.VPHome {
+  // 自定义首页背景图
+  // &::before {
+  //   // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+  //   background-image: url(./assets/bg.webp);
+  //   background-size: cover;
+  // }
+  // 定义遮罩样式
+  // background: radial-gradient(ellipse,
+  //     rgba(var(--bg-gradient-home), 1) 0%,
+  //     rgba(var(--bg-gradient-home), 0) 150%);
+}
+
+// nav栏高度切换时状态需要改变
+.VPNavBar.home.top {
+  .VPNavBarMenuLink {
+    color: #fff !important;
+  }
+
+  .VPFlyout span,
+  .VPSocialLink {
+    color: #fff !important;
+  }
+
+  .VPNavBarTitle {
+    span {
+      color: #fff !important;
+    }
+  }
+
+  .blog-search.search {
+    color: #fff !important;
+  }
+}
+
+.VPNavBar.home {
+
+  .blog-search.search,
+  .VPSocialLink {
+    color: #000 !important;
+  }
+}
+
+// 隐藏banner
+.header-banner {
+  display: none;
+}
